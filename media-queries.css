@@ -4,6 +4,7 @@
 @media screen and (max-width:480px) {
     a {
         text-decoration: none;
+        color: black
     }
     .hidden-on-desktop {
         display: flex;
@@ -14,11 +15,14 @@
         text-decoration: none;
         padding: 1em
     }
+    nav a {
+        color: blue;
+    }
     li {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: gray;
+        background: lightgray;
         list-style: none;
         text-decoration: underline;
         padding: 1em;
@@ -26,6 +30,10 @@
     }
     .nav-links {
         padding: 0;
+    }
+    .header-img {
+        display: flex;
+        width: 100%;
     }
     body {
         margin: 1em;
@@ -50,5 +58,6 @@
     footer {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 }
