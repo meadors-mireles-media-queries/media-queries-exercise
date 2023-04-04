@@ -1,6 +1,42 @@
 * {
     box-sizing: border-box;
 }
+@media screen and (min-width:480px) and (max-width:1200px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+
+    nav a {
+        color: blue;
+    }
+
+    li {
+        display: flex;
+        list-style: none;
+        text-decoration: underline;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0;
+    }
+
+    /* ... */
+}
+main {
+    width: 60%;
+    padding: 1em;
+}
+
+.sub-section {
+    width: 40%;
+    padding: 1em;
+}
+
+
 @media screen and (max-width:480px) {
     a {
         text-decoration: none;
@@ -50,6 +86,7 @@
     .sub-section {
     font-style: italic;
         padding-bottom: 4em;
+        order: 2;
     }
     h1 {
     display: flex;
@@ -61,3 +98,5 @@
         justify-content: space-between;
     }
 }
+
+
