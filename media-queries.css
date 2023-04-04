@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+img {
+    width: 100%;
+}
 @media screen and (max-width:480px) {
     a {
         text-decoration: none;
@@ -51,7 +53,6 @@
     .sub-section {
     font-style: italic;
         padding-bottom: 4em;
-        order: 2;
     }
     h1 {
     display: flex;
@@ -115,7 +116,6 @@
     }
     #social-media-links {
         justify-content: flex-end;
-        padding: 2px;
     }
     .fa-facebook{
         padding: 1em;
