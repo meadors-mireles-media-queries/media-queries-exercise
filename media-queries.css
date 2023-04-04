@@ -1,41 +1,6 @@
 * {
     box-sizing: border-box;
 }
-@media screen and (min-width:480px) and (max-width:1200px) {
-    .hidden-on-desktop {
-        display: none;
-    }
-
-    nav a {
-        color: blue;
-    }
-
-    li {
-        display: flex;
-        list-style: none;
-        text-decoration: underline;
-    }
-
-    .nav-links {
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: row;
-        gap: 20px;
-        padding: 0;
-    }
-
-    /* ... */
-}
-main {
-    width: 60%;
-    padding: 1em;
-}
-
-.sub-section {
-    width: 40%;
-    padding: 1em;
-}
-
 
 @media screen and (max-width:480px) {
     a {
@@ -99,7 +64,7 @@ main {
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 1200px) {
     .hidden-on-desktop{
         display: none;
     }
@@ -150,6 +115,10 @@ main {
     }
     #social-media-links {
         justify-content: flex-end;
+        padding: 2px;
+    }
+    .fa-facebook{
+        padding: 1em;
     }
 }
 
